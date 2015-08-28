@@ -1,5 +1,6 @@
 # NoBS Icon Creator
-A no-bullshit icon creator for Microsoft Windows Vista and above. Select an source image on your harddrive, select included image sizes and create.
+A no-bullshit icon creator for Microsoft Windows Vista and above. Select a source image on your harddrive, 
+select the image sizes to include and create.
 
 This program allows you to convert an image from your computer into a Windows .ICO file.
 You can include various different sizes in the icon that are automatically created from
