@@ -23,7 +23,7 @@ Partial Class frmMain
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.tbSource = New System.Windows.Forms.TextBox()
         Me.btnBrowse = New System.Windows.Forms.Button()
         Me.flpSizes = New System.Windows.Forms.FlowLayoutPanel()
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
@@ -46,12 +46,12 @@ Partial Class frmMain
         '
         'TextBox1
         '
-        Me.TextBox1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TextBox1.Location = New System.Drawing.Point(86, 3)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.ReadOnly = True
-        Me.TextBox1.Size = New System.Drawing.Size(668, 20)
-        Me.TextBox1.TabIndex = 1
+        Me.tbSource.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.tbSource.Location = New System.Drawing.Point(86, 3)
+        Me.tbSource.Name = "TextBox1"
+        Me.tbSource.ReadOnly = True
+        Me.tbSource.Size = New System.Drawing.Size(668, 20)
+        Me.tbSource.TabIndex = 1
         '
         'btnBrowse
         '
@@ -82,7 +82,7 @@ Partial Class frmMain
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle())
         Me.TableLayoutPanel1.Controls.Add(Me.Label1, 0, 0)
         Me.TableLayoutPanel1.Controls.Add(Me.flpSizes, 1, 1)
-        Me.TableLayoutPanel1.Controls.Add(Me.TextBox1, 1, 0)
+        Me.TableLayoutPanel1.Controls.Add(Me.tbSource, 1, 0)
         Me.TableLayoutPanel1.Controls.Add(Me.btnBrowse, 2, 0)
         Me.TableLayoutPanel1.Controls.Add(Me.flpPreview, 1, 2)
         Me.TableLayoutPanel1.Controls.Add(Me.btnCreate, 0, 3)
@@ -157,7 +157,7 @@ Partial Class frmMain
     End Sub
 
     Friend WithEvents Label1 As Label
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents tbSource As TextBox
     Friend WithEvents btnBrowse As Button
     Friend WithEvents flpSizes As FlowLayoutPanel
     Friend WithEvents TableLayoutPanel1 As TableLayoutPanel
