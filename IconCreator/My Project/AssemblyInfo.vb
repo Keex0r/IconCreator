@@ -8,11 +8,11 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("IconCreator")>
-<Assembly: AssemblyDescription("")>
+<Assembly: AssemblyTitle("NoBS Icon Creator")>
+<Assembly: AssemblyDescription("Creates icons from an image.")>
 <Assembly: AssemblyCompany("")>
 <Assembly: AssemblyProduct("IconCreator")>
-<Assembly: AssemblyCopyright("Copyright ©  2015")>
+<Assembly: AssemblyCopyright("Copyright ©  2015 Jens Wallauer")>
 <Assembly: AssemblyTrademark("")>
 
 <Assembly: ComVisible(False)>

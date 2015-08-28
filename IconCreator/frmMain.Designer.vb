@@ -22,6 +22,7 @@ Partial Class frmMain
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmMain))
         Me.Label1 = New System.Windows.Forms.Label()
         Me.tbSource = New System.Windows.Forms.TextBox()
         Me.btnBrowse = New System.Windows.Forms.Button()
@@ -44,11 +45,11 @@ Partial Class frmMain
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Source:"
         '
-        'TextBox1
+        'tbSource
         '
         Me.tbSource.Dock = System.Windows.Forms.DockStyle.Fill
         Me.tbSource.Location = New System.Drawing.Point(86, 3)
-        Me.tbSource.Name = "TextBox1"
+        Me.tbSource.Name = "tbSource"
         Me.tbSource.ReadOnly = True
         Me.tbSource.Size = New System.Drawing.Size(668, 20)
         Me.tbSource.TabIndex = 1
@@ -148,8 +149,9 @@ Partial Class frmMain
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(787, 443)
         Me.Controls.Add(Me.TableLayoutPanel1)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "frmMain"
-        Me.Text = "Simple Icon Creator"
+        Me.Text = "NoBS Icon Creator"
         Me.TableLayoutPanel1.ResumeLayout(False)
         Me.TableLayoutPanel1.PerformLayout()
         Me.ResumeLayout(False)
