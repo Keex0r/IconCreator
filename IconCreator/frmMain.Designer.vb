@@ -39,7 +39,7 @@ Partial Class frmMain
         '
         Me.Label1.Anchor = System.Windows.Forms.AnchorStyles.Right
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(36, 6)
+        Me.Label1.Location = New System.Drawing.Point(41, 11)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(44, 13)
         Me.Label1.TabIndex = 0
@@ -48,16 +48,16 @@ Partial Class frmMain
         'tbSource
         '
         Me.tbSource.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.tbSource.Location = New System.Drawing.Point(86, 3)
+        Me.tbSource.Location = New System.Drawing.Point(91, 8)
         Me.tbSource.Name = "tbSource"
         Me.tbSource.ReadOnly = True
-        Me.tbSource.Size = New System.Drawing.Size(668, 20)
+        Me.tbSource.Size = New System.Drawing.Size(658, 20)
         Me.tbSource.TabIndex = 1
         '
         'btnBrowse
         '
         Me.btnBrowse.Anchor = System.Windows.Forms.AnchorStyles.Left
-        Me.btnBrowse.Location = New System.Drawing.Point(760, 3)
+        Me.btnBrowse.Location = New System.Drawing.Point(755, 8)
         Me.btnBrowse.Name = "btnBrowse"
         Me.btnBrowse.Size = New System.Drawing.Size(24, 20)
         Me.btnBrowse.TabIndex = 2
@@ -69,7 +69,7 @@ Partial Class frmMain
         Me.flpSizes.AutoSize = True
         Me.flpSizes.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.TableLayoutPanel1.SetColumnSpan(Me.flpSizes, 2)
-        Me.flpSizes.Location = New System.Drawing.Point(86, 29)
+        Me.flpSizes.Location = New System.Drawing.Point(91, 34)
         Me.flpSizes.Name = "flpSizes"
         Me.flpSizes.Size = New System.Drawing.Size(2, 2)
         Me.flpSizes.TabIndex = 3
@@ -92,6 +92,7 @@ Partial Class frmMain
         Me.TableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel1.Location = New System.Drawing.Point(0, 0)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
+        Me.TableLayoutPanel1.Padding = New System.Windows.Forms.Padding(5)
         Me.TableLayoutPanel1.RowCount = 4
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle())
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle())
@@ -107,16 +108,16 @@ Partial Class frmMain
         Me.flpPreview.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.TableLayoutPanel1.SetColumnSpan(Me.flpPreview, 2)
         Me.flpPreview.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.flpPreview.Location = New System.Drawing.Point(86, 42)
+        Me.flpPreview.Location = New System.Drawing.Point(91, 47)
         Me.flpPreview.Name = "flpPreview"
-        Me.flpPreview.Size = New System.Drawing.Size(698, 369)
+        Me.flpPreview.Size = New System.Drawing.Size(688, 359)
         Me.flpPreview.TabIndex = 4
         '
         'btnCreate
         '
         Me.btnCreate.Anchor = System.Windows.Forms.AnchorStyles.Right
         Me.TableLayoutPanel1.SetColumnSpan(Me.btnCreate, 3)
-        Me.btnCreate.Location = New System.Drawing.Point(678, 417)
+        Me.btnCreate.Location = New System.Drawing.Point(673, 412)
         Me.btnCreate.Name = "btnCreate"
         Me.btnCreate.Size = New System.Drawing.Size(106, 23)
         Me.btnCreate.TabIndex = 5
@@ -127,7 +128,7 @@ Partial Class frmMain
         '
         Me.Label2.Anchor = System.Windows.Forms.AnchorStyles.Right
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(3, 26)
+        Me.Label2.Location = New System.Drawing.Point(8, 31)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(77, 13)
         Me.Label2.TabIndex = 6
@@ -137,7 +138,7 @@ Partial Class frmMain
         '
         Me.Label3.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(32, 39)
+        Me.Label3.Location = New System.Drawing.Point(37, 44)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(48, 13)
         Me.Label3.TabIndex = 7
