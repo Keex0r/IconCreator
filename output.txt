@@ -1,0 +1,16 @@
+f63d6a3 (HEAD, origin/master, master) Merge pull request #2 from Keex0r/iss01
+41c0d01 Added padding to the inner layout
+3f26dc8 Update README.md
+7fa0846 Update README.md
+d9b0023 Update README.md
+617e559 Update README.md
+08f7380 (tag: v1.0) Merge branch 'master' of https://github.com/Keex0r/IconCreator.git
+8b43864 Updated Icon and Name
+b8bb655 Create License.md
+64a788c Update README.md
+54a8d57 Create README.md
+4e80251 Merge pull request #1 from Keex0r/dev
+7ddf4ea Cleaned up and commented the code
+2a848dd Cleaned up the code some
+009b1ef Test
+35f6305 Initial commit to add default .gitIgnore and .gitAttribute files.

@@ -30,7 +30,7 @@
     ''' <summary>
     ''' Holds the supported icon sizes.
     ''' </summary>
-    Private IconSizes As Integer() = {16, 24, 32, 48, 96, 128, 256, 512}
+    Private IconSizes As Integer() = {16, 24, 32, 48, 64, 96, 128, 256, 512}
     ''' <summary>
     ''' Holds the created checkboxes for the icon sizes
     ''' </summary>
@@ -128,6 +128,7 @@
         End Using
     End Sub
 #End Region
+
 #Region "Icon Creation"
     ''' <summary>
     ''' Actually creates the icon from the source. It implements the .ICO format for Microsoft Windows Vista and above
@@ -194,7 +195,7 @@
                         'Reserved
                         bw.Write(ByteVal)
                         'Color planes
-                        ShortVal = 0
+                        ShortVal = 1
                         bw.Write(ShortVal)
                         'Bit depth, we always create 32bpp images
                         ShortVal = 32
